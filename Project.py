@@ -71,8 +71,8 @@ import smtplib
 
 def sendEmail(to, content):
     # Replace with your email credentials
-    sender_email = "muhammadbalach369@gmail@gmail.com"
-    sender_password = "muhammad03@369"
+    sender_email = "your email"
+    sender_password = "your password"
 
     try:
         server = smtplib.SMTP("smtp.gmail.com", 587)
